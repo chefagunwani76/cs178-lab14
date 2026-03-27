@@ -76,7 +76,7 @@ def viewdb():
 
 # TODO: Section 2 — add your /artistquery/<artist_id> route here
 @app.route("/artistquery/<artist_id>")
-def viewdb(artist_id):
+def artistquery(artist_id):
     """
     Tracks of artist from artistid in url
     Route: /artistquery/<artist_id>
